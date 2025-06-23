@@ -4,7 +4,7 @@ require('./keep_alive') // start Express server
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'barreleye.aternos.host', // or public IP
+    host: 'firefish.aternos.host', // or public IP
     port: 11150,
     username: 'Bhodai69', // cracked usernames work
   })

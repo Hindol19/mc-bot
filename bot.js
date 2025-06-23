@@ -28,6 +28,11 @@ function createBot() {
   bot.on('error', err => {
     console.log('❌ Error:', err)
   })
+
+  bot.on('message', (jsonMsg) => {
+  console.log('📩 Server says:', jsonMsg.toString())
+})
+
 }
 
 createBot()

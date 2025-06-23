@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer')
-require('./keepalive') // start Express server
+require('./keep_alive') // start Express server
 // your existing bot code below...
 
 function createBot() {

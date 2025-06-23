@@ -1,4 +1,6 @@
 const mineflayer = require('mineflayer')
+require('./keepalive') // start Express server
+// your existing bot code below...
 
 function createBot() {
   const bot = mineflayer.createBot({

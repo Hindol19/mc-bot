@@ -4,9 +4,9 @@ require('./keep_alive') // start Express server
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'yourserver.aternos.me', // or public IP
-    port: 25565,
-    username: 'AFK_Bot_01', // cracked usernames work
+    host: 'kokanee.aternos.host', // or public IP
+    port: 11150,
+    username: 'Bhodai69', // cracked usernames work
   })
 
   bot.once('spawn', () => {
